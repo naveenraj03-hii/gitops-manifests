@@ -1,11 +1,6 @@
 apiVersion: v2
-
-name: gitops-app
-
-description: GitOps application deployed using Argo CD
-
+name: naveen-tech-school
+description: Naveen Tech School GitOps Application
 type: application
-
-version: 0.1.0
-
+version: 1.0.0
 appVersion: "1.0"

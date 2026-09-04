@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: nginx
-  tag: "1.27"
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
@@ -10,8 +10,7 @@ service:
   port: 80
 
 ingress:
-  enabled: true
+  enabled: false
   className: nginx
-  path: /
-
-resources: {}
+  host: ""
+  path: "/"
